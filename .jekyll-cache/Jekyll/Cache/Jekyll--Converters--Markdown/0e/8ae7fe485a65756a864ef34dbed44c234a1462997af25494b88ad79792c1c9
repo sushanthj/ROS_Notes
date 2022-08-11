@@ -1,0 +1,45 @@
+I"®<details open="">
+  <summary class="text-delta">
+    Table of contents
+  </summary>
+<ol id="markdown-toc">
+  <li><a href="#filesystem-tools" id="markdown-toc-filesystem-tools">Filesystem Tools</a>    <ol>
+      <li><a href="#rosbash" id="markdown-toc-rosbash">rosbash</a></li>
+    </ol>
+  </li>
+  <li><a href="#creating-packages" id="markdown-toc-creating-packages">Creating Packages</a>    <ol>
+      <li><a href="#build-systems" id="markdown-toc-build-systems">Build Systems</a></li>
+    </ol>
+  </li>
+</ol>
+
+</details>
+
+<p><a href="http://wiki.ros.org/ROS/Tutorials/NavigatingTheFilesystem">Tutorial Page 1</a>
+<a href="http://wiki.ros.org/ROS/Tutorials/CreatingPackage">Tutorial Page 2</a></p>
+
+<h1 id="filesystem-tools">Filesystem Tools</h1>
+
+<p><strong>rospack</strong> gives info about packages and it takes attributes like <em>rospack find roscpp</em></p>
+
+<ul>
+  <li><strong>find</strong> : returns path to package</li>
+  <li><strong>depends</strong> : returns list of dependencies for all packages</li>
+  <li><strong>depends-on</strong> : returns a list of dependencies to a particular package</li>
+  <li><strong>export</strong> : return flags necessary for building and linking against a package</li>
+</ul>
+
+<h2 id="rosbash">rosbash</h2>
+
+<p>this is a suite which contains bash functions which is the ros equivalent of normal bash commands we are used to like <strong>cd, ls</strong></p>
+
+<ul>
+  <li><strong>roscd</strong> is just like <strong>cd</strong>, it allows us to change working directories like <em>roscd roscpp</em></li>
+  <li><strong>rosls</strong> returns contents of a directory</li>
+</ul>
+
+<h1 id="creating-packages">Creating Packages</h1>
+
+<h2 id="build-systems">Build Systems</h2>
+
+:ET
